@@ -12,9 +12,9 @@ export default function Navbar() {
   return (
     <NavbarBT id="navbar-bootstrap" bg='dark' variant='dark' expand="md">
       <Container>
-      
+      <img class="navbar-brand"  alt=' ' src="https://i.ibb.co/pwymzdq/logo-proyecto5b.png" width="10%"/>
         <NavbarBT.Brand href='/'>
-          <img class="navbar-brand"  alt=' ' src="https://www.pngplay.com/wp-content/uploads/6/Red-Alloy-Wheel-PNG.png" width="4%"></img>
+          
           Inicio
         </NavbarBT.Brand>
         <NavbarBT.Toggle aria-controls="basic-navbar-nav"></NavbarBT.Toggle>

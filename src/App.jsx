@@ -47,12 +47,16 @@ function App() {
             </Route>
 
             {/* Rutas de auth */}
-            <Route path="/auth/login" element={
+            <Route 
+              path="/auth/login" 
+              element={
               <Login></Login>
             }>
             </Route>
 
-            <Route path="/auth/signup" element={
+            <Route 
+              path="/auth/signup" 
+              element={
               <Signup></Signup>
             }>
             </Route>
